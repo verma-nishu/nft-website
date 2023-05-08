@@ -97,6 +97,9 @@ function NavBar() {
         </Container>
       </Navbar> */}
       <Home />
+
+
+      {/* home */}
       </>
   );
 }
