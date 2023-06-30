@@ -14,12 +14,14 @@ import george from './Images/george.jpeg';
 import metthew from './Images/metthew.jpeg';
 import adele from './Images/adele.jpeg';
 import HotcollectionSlider from './HotcollectionSlider.js'
-import NFT3 from './Images/NFT3.png';
+import acc from './Images/acc.jpeg';
+import pink_mountain from './Images/pink_mountain.jpeg';
 import PeopleSaying from './PeopleSaying.js';
 import how_work from './Images/how_work.jpeg';
 import app_store from './Images/app_store.png'
 import google_play_store from './Images/google_play_store.png'
 import ItemDetails from './ItemDetails';
+
 function Home() {
   return (
     <>
@@ -98,7 +100,61 @@ function Home() {
 
       </div>
       <div>
+      <div class='container'>
+        <div className='row card-design'>
+          <div className='col-lg-2'>      
+            <div className='card1'>
+        <div class="card-body2">
+         
+         <div className='img-sec'>
+          <div className='icon-sec'>
+            <div><span class="glyphicon glyphicon-arrow-right"></span></div>
+            <div><span class="glyphicon glyphicon-sort"></span></div>
+          </div>
+          <img src={pink_mountain} className='mountain'></img>
+          <h3>What else is there</h3>
+          <p>Moonbeam</p>
+          <div className='record-icons'> <span class="glyphicon glyphicon-backward"></span>
+          <span class="glyphicon glyphicon-play"></span>
+          <span class="glyphicon glyphicon-forward"></span></div>
+          <div className='bottom-icons'>   <span class="glyphicon glyphicon-fullscreen"></span>
+          <span class="glyphicon glyphicon-heart-empty"></span>
+          <span class="glyphicon glyphicon-random"></span>
+          </div>
+          
+          </div>
+         
+         
 
+          </div>
+        
+          </div>
+          </div>
+          <div className='col-lg-2'>      
+            <div className='card3'>
+        <div class="card-body3">
+         
+    
+         
+          <img src={acc}></img>
+        
+          <div className='login-sec'>
+            <div className='login-field'>
+            <p>Login</p>
+            <label>Email</label>
+            <input type='text' placeholder='abc@gmail.com'/>
+            <label>Password</label>
+            <input type='text' placeholder='abc@gmail.com'/>
+          </div>
+          </div>
+         
+
+          </div>
+        
+          </div>
+          </div>
+        </div>
+</div>
         <div class='container'>
           <h2 class='top-sellers'>
             Top sellers in one 1 day
